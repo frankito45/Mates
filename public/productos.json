@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Camionero de algarrobo VIROLA de acero",
+    "description": "Camionero 100% algarrobo virola acero",
+    "price": 20,
+    "image":"/imperial_algarrobo_laqueado.jpeg"
+  },
+  
+  {
+    "id": 3,
+    "title": "Imperial de goma int.termico negro",
+    "description": "Interior térmico. Exterior de goma. Tamaño del imperial",
+    "price": 50,
+    "image":"/imperial_interior_termico.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Imperial algarrobo guarda de alpaca",
+    "description": "Guarda de alpaca gruesa. Interior de algarrobo, tamaño surtido",
+    "price": 50,
+    "image":"imperial_algarrobo_laqueado.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Termo media manija 1 LITRO COLOR ACERO",
+    "description": "Termo de acero inoxidable con manija media. Capacidad 1 litro",
+    "price": 50,
+    "image":"/termo_media_manija.jpeg"
+  },
+{
+    "id":8,
+    "title":"Camionero de goma int.termico negro con virola ANCHA de acero",
+    "description":"Interior calabaza. Exterior de goma.",
+    "price": 50,
+    "image":""
+  },
+  {
+    "id":9,
+    "title":"vaso térmico con vuelo, interior térmico inox – color negro",
+    "description":"lorem ",
+    "price":1,
+    "image":""
+  },
+  {
+    "id":10,
+    "title":"vaso térmico con vuelo, interior térmico inox – color negro",
+    "description":"lorem",
+    "price":1,
+    "image":""
+  },
+  {
+    "id":11,
+    "title":"Bombilla pico loro punta plana",
+    "description":"lorem",
+    "price":1,
+    "image":""
+  }
+  
+]
