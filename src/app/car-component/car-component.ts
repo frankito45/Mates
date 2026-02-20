@@ -74,7 +74,7 @@ export class CarComponent {
     if (this.items().length === 0 )return '#';
       
       const mensaje = items.map(item => `${item.title} x ${item.quantity} -  $${item.price * item.quantity}`).join('\n')
-      const finalMensaje = `Hola, quiero hacer el siguiente pedido:\n ${mensaje} Total: $${this.total()}`;
+      const finalMensaje = `Hola, quiero hacer el siguiente pedido:\n ${mensaje} \nTotal: $${this.total()}`;
 
       const encodedMessaje = encodeURIComponent(finalMensaje)
       const phoneNumber = '541171406331'
