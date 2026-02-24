@@ -1,5 +1,5 @@
 import { Component, inject, input, signal } from '@angular/core';
-import {  Cartservice } from '../cartsevice';
+
 import { Product } from '../data-item';
 import { Router } from '@angular/router';
 
@@ -24,14 +24,7 @@ import { Router } from '@angular/router';
      <span>{{ product().price }}</span>
     </div>
      
-    <button (click)="addtoCart($event)">
-      Agregar al carrito
-    </button>
-    @if (added()) {
-      <span class="msg-added">
-  Producto agregado 
-</span>
-    }
+
   </div>
 
   `,
@@ -41,28 +34,10 @@ export class ProductCard {
   
   product = input.required<Product>()
   
-  private CartService = inject(Cartservice)
+
   private router = inject(Router)
   added = signal(false);
 
-  addtoCart(evento:Event){
-    evento?.stopPropagation()
-    const p = this.product() 
-    
-
-    this.CartService.addProduct(
-      {id: p.id,
-      title: p.title,
-      price: p.price,
-      img:p.image,
-      quantity: 1}
-    )
-    this.added.set(true)
-    setTimeout(()=> {
-      this.added.set(false)},1000)
-
-
-  }
 
   goToProduct() {
   const p = this.product();
