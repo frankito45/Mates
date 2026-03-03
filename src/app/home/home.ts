@@ -129,8 +129,6 @@ scrollToProductos() {
     }
   }
 
-  selectedCategory = signal<string | null>(null);
-
 
 
 }
