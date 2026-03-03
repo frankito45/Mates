@@ -109,7 +109,7 @@ scrollToProductos() {
 
     const start = (this.currentPage()- 1) * this.pageSize;
     const end = start + this.pageSize;
-    return this.filteredItems().slice(start, end);
+    return this.items().slice(start, end);
   
   })
 
