@@ -21,7 +21,7 @@ import { Router } from '@angular/router';
     <div class="item-content">
      <p>{{ product().description }}</p>
      
-     <span>{{ product().price }}</span>
+     <span>$ {{ product().price }}</span>
     </div>
      
 

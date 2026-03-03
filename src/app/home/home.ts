@@ -30,10 +30,9 @@ import { Footer } from "../core/footer/footer";
     
   </div>
   <div class="cards-container">
-    <app-card title="Mates" description="Un mate hecho a mano de calidad superior." [imagen]='mates' (click)="selectedCategory.set('mates')" ></app-card>
-    <app-card title="Termos" description="Termos de alta calidad " [imagen]='termos' (click)="selectedCategory.set('termos')" ></app-card>
-    <app-card title="Accesorios" description="" [imagen]='accesorios' (click)="selectedCategory.set('accesorios')" ></app-card>
-    <app-card title="Todos" description=""  (click)="selectedCategory.set(null)" ></app-card>
+    <app-card title="Mates" description="Un mate hecho a mano de calidad superior." [imagen]='mates' ></app-card>
+    <app-card title="Termos" description="Termos de alta calidad " [imagen]='termos'  ></app-card>
+    <!-- <app-card title="Todos" description=""  (click)="selectedCategory.set(null)" ></app-card> -->
   </div>
 </section>
 
