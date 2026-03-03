@@ -5,7 +5,7 @@
     "description": "Imperial 100% algarrobo virola acero",
     "price": 22000,
     "categoria": "mates",
-    "image":"/Imperial_algarrobo.jpeg"
+    "image":"Imperial_algarrobos.jpeg"
   },
   {
     "id": 2,
@@ -53,7 +53,7 @@
     "description": "Termo de acero inoxidable con manija media",
     "price": 17500,
     "categoria": "termos",
-    "image":"/Termo_media_manija.jpeg"
+    "image":"/media_manija.jpeg"
   }
 
   
