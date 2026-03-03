@@ -131,13 +131,6 @@ scrollToProductos() {
 
   selectedCategory = signal<string | null>(null);
 
-  filteredItems = computed(() => {
-  const category = this.selectedCategory();
-  if (!category) return this.items();
-
-  return this.items().filter(item => item.categoria === category);
-});
-
 
 
 }
