@@ -1,15 +1,17 @@
 import { Component,  inject } from '@angular/core';
 import { Cartservice } from '../cartsevice';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-car-component',
-  imports: [],
+  imports: [RouterLink],
   standalone: true,
   template: `
 
     <section class="carrito">
 
       <h2>Productos</h2>
+      <a routerLink="/" class="a-button">volver</a>
       <table>
         <tr>
           <th>Producto</th>

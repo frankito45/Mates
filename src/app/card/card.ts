@@ -6,6 +6,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-card',
   imports: [RouterLink],
   template: `
+  
 
     <div class="card">
       @if(imagen()) {

@@ -5,23 +5,28 @@ import { switchMap } from 'rxjs/operators';
 import { CommonModule } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Cartservice } from '../cartsevice';
+import { Navbar } from '../core/navbar/navbar';
+
 
 @Component({
   selector: 'app-product-detail',
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, Navbar],
   template: `
 
-  <header class="header">
-  <h1>titulo</h1> 
-  <nav class="nav">
-    <a routerLink="/">Home</a> |
-    <a routerLink="/contact">Contact</a>
-  </nav>
-  </header>
+  <app-navbar></app-navbar>
   <section class="product-wrapper">
     <div class="content-button-a">
       <a routerLink="/" class="a-button">volver</a>
-      <a routerLink="/carrito" class="a-button">Ver carrito</a>
+      <a routerLink="/carrito" class="a-button">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7 4h-2l-1 2h2l3.6 7.59-1.35 2.45c-.16.29-.25.63-.25.96 
+        0 1.1.9 2 2 2h9v-2h-9l1.1-2h7.45c.75 
+        0 1.41-.41 1.75-1.03l3.58-6.49a1 1 0 0 
+        0-.87-1.48h-14.21l-.94-2zm3 16a2 2 0 1 
+        0 0 4 2 2 0 0 0 0-4zm8 0a2 2 0 1 
+        0 0 4 2 2 0 0 0 0-4z"/>
+      </svg>
+  </a>
     </div>
     @if (product(); as p) {
       <div class="card-detail">
@@ -40,18 +45,19 @@ import { Cartservice } from '../cartsevice';
           <button (click)="addtoCart()" class="button-buy">
             Agregar al carrito
           </button>
-              @if (added()) {
-      <span class="msg-added">
-  Producto agregado
-</span>
-    }@else {}
+
+          @if (added()) {
+          <span class="msg-added">Producto agregado</span>
+          }
         </div>
       </div>
       
-    } @else {
+    } 
+    @else {
       <p>Cargando producto...</p>
     }
   </section>
+
   
   `,
   styleUrl: './product-detail.sass',

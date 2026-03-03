@@ -12,5 +12,6 @@ export const routes: Routes = [
     { path: 'carrito', component: CarComponent }
 
 
+
     
 ];

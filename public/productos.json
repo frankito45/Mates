@@ -1,60 +1,60 @@
 [
   {
     "id": 1,
-    "title": "Camionero de algarrobo VIROLA de acero",
-    "description": "Camionero 100% algarrobo virola acero",
-    "price": 20,
-    "image":"/imperial_algarrobo_laqueado.jpeg"
+    "title": "Imperial de algarrobo",
+    "description": "Imperial 100% algarrobo virola acero",
+    "price": 22000,
+    "categoria": "mates",
+    "image":"/Imperial_algarrobo.jpeg"
   },
-  
+  {
+    "id": 2,
+    "title": "Imperial Termico",
+    "description": "Imperial 100% algarrobo virola acero",
+    "price": 20000,
+    "categoria": "mates",
+    "image":"/Imperial_int_termico.jpeg"
+  },
   {
     "id": 3,
-    "title": "Imperial de goma int.termico negro",
-    "description": "Interior térmico. Exterior de goma. Tamaño del imperial",
-    "price": 50,
-    "image":"/imperial_interior_termico.jpeg"
+    "title": "Imperial Laqueado",
+    "description": "Imperial Laquedo con virola Alpaca diseño surtido",
+    "price": 20000,
+    "categoria": "mates",
+    "image":"/Mates_laqueados_1.jpeg"
   },
   {
-    "id": 5,
-    "title": "Imperial algarrobo guarda de alpaca",
-    "description": "Guarda de alpaca gruesa. Interior de algarrobo, tamaño surtido",
-    "price": 50,
-    "image":"imperial_algarrobo_laqueado.jpeg"
+    "id": 4,
+    "title": "Mate Roma",
+    "description": "base completa cincelada cuero repujado color negro. int inox termico",
+    "price": 20000,
+    "categoria": "mates",
+    "image":"/Mates_roma.jpeg"   
+  },
+  {
+    "id":5,
+    "title":"Bombilla pico loro",
+    "description": "bombilla de alpaca pico de loro",
+    "price":6000,
+    "categoria": "accesorios",
+    "image":"/Bombilla_Picoloro.jpeg"
   },
   {
     "id": 6,
-    "title": "Termo media manija 1 LITRO COLOR ACERO",
-    "description": "Termo de acero inoxidable con manija media. Capacidad 1 litro",
-    "price": 50,
-    "image":"/termo_media_manija.jpeg"
-  },
-{
-    "id":8,
-    "title":"Camionero de goma int.termico negro con virola ANCHA de acero",
-    "description":"Interior calabaza. Exterior de goma.",
-    "price": 50,
-    "image":""
+    "title": "Baso Termico",
+    "description": "Baso termico de acero inoxidable",
+    "price": 6000,
+    "categoria": "mates",
+    "image":"/Baso_termico.jpeg"
   },
   {
-    "id":9,
-    "title":"vaso térmico con vuelo, interior térmico inox – color negro",
-    "description":"lorem ",
-    "price":1,
-    "image":""
-  },
-  {
-    "id":10,
-    "title":"vaso térmico con vuelo, interior térmico inox – color negro",
-    "description":"lorem",
-    "price":1,
-    "image":""
-  },
-  {
-    "id":11,
-    "title":"Bombilla pico loro punta plana",
-    "description":"lorem",
-    "price":1,
-    "image":""
+    "id": 7,
+    "title":"Termo media manija",
+    "description": "Termo de acero inoxidable con manija media",
+    "price": 17500,
+    "categoria": "termos",
+    "image":"/Termo_media_manija.jpeg"
   }
+
   
 ]
