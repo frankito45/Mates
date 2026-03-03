@@ -3,17 +3,24 @@ import { Component, inject, input, signal } from '@angular/core';
 import { Product } from '../data-item';
 import { Router } from '@angular/router';
 
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-product-card',
-  imports: [],
+  imports: [NgOptimizedImage],
   standalone:true,
   template: `
   
     
   <div class="item-Card" (click)="goToProduct()">
     <div class="content-img">
-      <img [src]="product().image" alt="asdff">
+    <img
+    ngSrc="{{ product().image }}"
+    width="300"
+    height="300"
+    [alt]="product().title"
+    />
+      
     </div>
     <h2>{{ product().title }}</h2>
    
